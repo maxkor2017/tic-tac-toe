@@ -9,13 +9,14 @@ body {
   --opacity: 1;
   --modal-bg-color: #bcdbf9;
   background-color: var(--modal-color);
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: 100dvh;
+  max-height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 body.dark {
